@@ -1,0 +1,47 @@
+:root {
+	--primary_yellow: #F39C12 ;
+	--light:#ffffffff;
+	--gray:#efefef;
+}
+
+body {
+	overflow: scroll;
+	font-family: 'Muli',sans-serif;
+	font-weight: 300;
+	color: var(--primary);
+}
+
+.bg-primary{
+	background-color: var(--primary_yellow)!important;
+}
+.btn-primary{
+	background-color:var(--primary_yellow)!important;
+
+}
+
+#sidebar-container{
+	min-height:100vh;
+
+}
+
+
+#sidebar-container .logo{
+	padding: .875rem 1.25rem;
+}
+
+#sidebar-container .menu{
+	width: 18rem;
+}
+
+#content{
+	overflow-y:auto;
+	height: 100%;
+	padding-bottom: 5rem;
+
+}
+
+
+iframe{
+	height: 700px;
+	width: 100%;
+}
